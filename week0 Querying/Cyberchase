@@ -1,1 +1,2 @@
-
+# Problem1 SQL1
+Select "title" from "episodes" where "season" = 1;
