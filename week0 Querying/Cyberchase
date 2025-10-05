@@ -4,4 +4,8 @@ Select "title" from "episodes" where "season" = 1;
 #Problem2
 select season,title from episodes where episode_in_season = 1;
 
+#Problem3
+select production_code from episodes where title = "Hackerized!";
+
+
 
