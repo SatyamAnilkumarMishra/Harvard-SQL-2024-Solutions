@@ -15,5 +15,12 @@ where topic is null;
 #Problem5
 select title from episodes where air_date="2004-12-31";
 
+#Problem6
+select title
+from episodes
+where season = 6 and air_date between "2007-01-01" and "2007-12-31";
+
+
+
 
 
