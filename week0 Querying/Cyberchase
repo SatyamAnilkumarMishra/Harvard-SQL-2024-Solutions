@@ -12,5 +12,8 @@ select title
 from episodes
 where topic is null;
 
+#Problem5
+select title from episodes where air_date="2004-12-31";
+
 
 
