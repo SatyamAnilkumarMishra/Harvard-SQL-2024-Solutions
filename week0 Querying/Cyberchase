@@ -7,5 +7,10 @@ select season,title from episodes where episode_in_season = 1;
 #Problem3
 select production_code from episodes where title = "Hackerized!";
 
+#Problem4
+select title
+from episodes
+where topic is null;
+
 
 
