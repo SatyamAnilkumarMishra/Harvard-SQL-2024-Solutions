@@ -46,6 +46,10 @@ from episodes
 where season = 5
 order by title  DESC;
 
+#Problem12
+select count(distinct title)
+from episodes;
+
 
 
 
